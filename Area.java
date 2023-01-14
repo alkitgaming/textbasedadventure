@@ -27,4 +27,15 @@ public class Area
     {
         items.add(i);
     }
+
+    public void setLocation(String name, String description)
+    {
+        this.name = name;
+        this.description = description;
+    }
+
+    public String toString()
+    {
+        return "Name: " + name + "\nDescription: " + description;
+    }
 }
