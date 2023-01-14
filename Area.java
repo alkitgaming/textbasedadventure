@@ -36,6 +36,6 @@ public class Area
 
     public String toString()
     {
-        return "Name: " + name + "\nDescription: " + description;
+        return "Name: " + name + "\nDescription: " + description + " enemy name";
     }
 }
